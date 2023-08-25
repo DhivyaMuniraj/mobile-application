@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/first_group"
+        android:title="@string/section_header">
+        <menu
+            android:id="@+id/main_group_menu"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/label_one"
+                android:icon="@drawable/ic_square"
+                android:title="@string/label" />
+            <item
+                android:id="@+id/label_two"
+                android:icon="@drawable/ic_triangle"
+                android:title="@string/label" />
+
+            <item
+                android:id="@+id/label_three"
+                android:icon="@drawable/ic_pentagon"
+                android:title="@string/label" />
+
+            <item
+                android:id="@+id/label_four"
+                android:icon="@drawable/ic_triangle"
+                android:title="@string/label" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/second_group"
+        android:title="@string/section_header">
+        <menu
+            android:id="@+id/middle_group_menu"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/label_five"
+                android:icon="@drawable/ic_square"
+                android:title="@string/label" />
+            <item
+                android:id="@+id/label_six"
+                android:icon="@drawable/ic_triangle"
+                android:title="@string/label" />
+
+            <item
+                android:id="@+id/label_seven"
+                android:icon="@drawable/ic_pentagon"
+                android:title="@string/label" />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/third_group"
+        android:title="@string/section_header">
+        <menu
+            android:id="@+id/last_group_menu"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/label_eight"
+                android:icon="@drawable/ic_square"
+                android:title="@string/label" />
+            <item
+                android:id="@+id/label_nine"
+                android:icon="@drawable/ic_triangle"
+                android:title="@string/label" />
+
+            <item
+                android:id="@+id/label_ten"
+                android:icon="@drawable/ic_pentagon"
+                android:title="@string/label" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="app_theme_background_color">#FFFFFFFF</color>
+
+    <color name="gradient_purple_start">#4318FF</color>
+    <color name="gradient_purple_end">#868CFF</color>
+    <color name="purple_20">#334318FF</color>
+
+
+    <color name="primary_blue">#4318FF</color>
+    <color name="button_on_click">#6441FF</color>
+    <color name="disabled_container">#E4E4E4</color>
+    <color name="disabled_text">#989799</color>
+    <color name="primary_container">#EDE8FF</color>
+    <color name="text_on_click">#E3DDFF</color>
+    <color name="success_color">#01B574</color>
+    <color name="error_color">#E31A1A</color>
+    <color name="text_color">#1C1B1F</color>
+    <color name="secondary_text_color">#49454F</color>
+    <color name="place_holder_text_color">#7D7D7D</color>
+    <color name="text_box_out_line">#8F9BBA</color>
+    <color name="text_container">#F4F7FE</color>
+    <color name="disabled_icon">#B0BBD5</color>
+    <color name="secondary_grey">#F4F7FE</color>
+    <color name="off_white">#FFFBFE</color>
+
+
+
+
+
+
+</resources>

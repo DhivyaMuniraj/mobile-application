@@ -1,0 +1,110 @@
+<resources>
+
+    <!--Common styles-->
+
+
+    <!--A common title style-->
+    <style name="TextAppearance_H1">
+        <item name="android:textSize">@dimen/_40sdp</item>
+        <item name="android:textColor">@color/black</item>
+<!--        <item name="android:fontFamily">@font/tungsten_semi_bold</item>-->
+    </style>
+
+    <style name="TextAppearance_H2">
+        <item name="android:textSize">@dimen/_31sdp</item>
+        <item name="android:textColor">@color/black</item>
+<!--        <item name="android:fontFamily">@font/roboto_regular</item>-->
+    </style>
+
+    <style name="TextAppearance_H3">
+        <item name="android:textSize">@dimen/_27sdp</item>
+        <item name="android:textColor">@color/black</item>
+<!--        <item name="android:fontFamily">@font/tungsten_semi_bold</item>-->
+    </style>
+
+    <style name="TextAppearance_para">
+        <item name="android:textSize">@dimen/_20sdp</item>
+        <item name="android:textColor">@color/black</item>
+<!--        <item name="android:fontFamily">@font/forza_book</item>-->
+    </style>
+
+    <style name="TextAppearance_body">
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="android:textColor">@color/black</item>
+<!--        <item name="android:fontFamily">@font/forza_book</item>-->
+    </style>
+
+    <style name="TextAppearance_body_small">
+        <item name="android:textSize">@dimen/_13sdp</item>
+        <item name="android:textColor">@color/black</item>
+<!--        <item name="android:fontFamily">@font/forza_bold</item>-->
+    </style>
+
+    <style name="TextAppearance_body_indicator">
+        <item name="android:textSize">@dimen/_10sdp</item>
+        <item name="android:textColor">@color/black</item>
+<!--        <item name="android:fontFamily">@font/forza_light</item>-->
+    </style>
+
+    <style name="TextAppearance_body_bold">
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="android:textColor">@color/black</item>
+<!--        <item name="android:fontFamily">@font/forza_bold</item>-->
+    </style>
+
+
+    <style name="edit_text_background">
+        <item name="cornerSize">@dimen/_5sdp</item>
+        <item name="backgroundTint">@color/white</item>
+    </style>
+
+    <style name="TextAppearance_black_menu_items">
+        <item name="android:textColor">@color/black</item>
+<!--        <item name="android:fontFamily">@font/forza_medium</item>-->
+    </style>
+
+    <style name="TextAppearance_grey_menu_items">
+        <item name="android:textColor">@color/secondary_text_color</item>
+<!--        <item name="android:fontFamily">@font/forza_book</item>-->
+    </style>
+
+    <style name="round_image">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="rounded_corners_image">
+        <item name="cornerSize">5%</item>
+    </style>
+
+    <style name="rounded_corners_image_3">
+        <item name="cornerSize">3%</item>
+    </style>
+
+    <style name="rounded_corners_background">
+        <item name="cornerSizeTopLeft">5%</item>
+        <item name="cornerSizeBottomLeft">5%</item>
+        <item name="cornerSizeBottomRight">5%</item>
+        <item name="cornerSizeTopRight">5%</item>
+    </style>
+
+
+    <style name="RoundedCornersDialog" parent="@style/Theme.MaterialComponents.Dialog">
+        <item name="dialogCornerRadius">30dp</item>
+    </style>
+
+    <style name="RoundedCornersDialogMore" parent="Theme.MaterialComponents.Dialog">
+        <item name="dialogCornerRadius">16dp</item>
+    </style>
+
+<!--   Set parent theme as app theme.-->
+    <style name="DialogTheme" parent="@style/Theme.MobileAppKitAndroid.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+</resources>

@@ -1,0 +1,17 @@
+package com.ces.androidappkit.ui.on_boarding
+
+enum class UiState {
+    SUCCESS,
+    FAILURE,
+    VALID_EMAIL,
+    INVALID_EMAIL,
+    EMPTY_EMAIL,
+    VALID_PASSWORD,
+    INVALID_PASSWORD,
+    EMPTY_PASSWORD,
+    PASSWORD_MISMATCH,
+    PASSWORD_MATCH,
+    INVALID_CONFIRM_PASSWORD,
+    EMPTY_CONFIRM_PASSWORD,
+    VALID_CONFIRM_PASSWORD,
+}
